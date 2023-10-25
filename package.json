@@ -1,0 +1,27 @@
+{
+  "name": "express-basic",
+  "version": "1.0.0",
+  "description": "\"# 541211100-XIIRPL3-Kevin_Ananda_Putra\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KevinAnandaP/541211100-XIIRPL3-Kevin_Ananda_Putra.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KevinAnandaP/541211100-XIIRPL3-Kevin_Ananda_Putra/issues"
+  },
+  "homepage": "https://github.com/KevinAnandaP/541211100-XIIRPL3-Kevin_Ananda_Putra#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
