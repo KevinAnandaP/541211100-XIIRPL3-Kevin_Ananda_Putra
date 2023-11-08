@@ -1,7 +1,7 @@
 const mongoose = require("mongoose")
 
-const TableSchema = new mongoose.Schema({
-    name: {
+const UserSchema = new mongoose.Schema({
+    nama: {
         type: String,
         required: true,
         unique: true,
@@ -9,7 +9,9 @@ const TableSchema = new mongoose.Schema({
     email: {
         type: String,
         required: true,
+        unique: true,
+        natch: [/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/, 'Silahkan isikan email valid!']
     },
 });
 
-const Table = mongoose.model("User", TableSchema);
+module.exports = mongoose.model('User', UserSchema)
